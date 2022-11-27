@@ -1,11 +1,11 @@
 # Touché Coulé
 
-Welcome to the DAAR project. The idea will be to implement a "Touché Coulé" (Battleship) game
-in a decentralized way, on Ethereum. This will have cool side effects, like not
-be forced to pay for servers.
-The project can't be run on Windows. Please, use WSL.
+Objective of the project:  Implement a "Touché Coulé" (Battleship) game
+in a decentralized way, on Ethereum. 
 
-# Installation
+
+
+# Download the main project from: 
 
 ```bash
 # With HTTPS
@@ -14,39 +14,48 @@ git clone https://github.com/ghivert/touche-coule.git
 git clone git@github.com:ghivert/touche-coule.git
 ```
 
-You’ll need to install dependencies. You’ll need [`HardHat`](https://hardhat.org/), [`Node.js`](https://nodejs.org/en/), [`NPM`](https://www.npmjs.com/) and [`Yarn`](https://yarnpkg.com/). You’ll need to install [`Metamask`](https://metamask.io/) as well to communicate with your blockchain.
+Dependencies: 
 
 - `HardHat` is a local blockchain development, to iterate quickly and avoiding wasting Ether during development. Fortunately, you have nothing to do to install it.
-- `Node.js` is used to build the frontend and running `truffle`, which is a utility to deploy contracts.
+to test hardhat is working:  $$ npx hardhat 
+- `Node.js` is used to build the frontend, Recommanded to install the lastest stable version. 
 - `NPM` or `Yarn` is a package manager, to install dependencies for your frontend development. Yarn is recommended.
 - `Metamask` is a in-browser utility to interact with decentralized applications.
 
-# Some setup
 
-Once everything is installed, launch the project (with `yarn dev`). You should have a local blockchain running in local. Open Metamask, setup it, and add an account from the Private Keys HardHat displays.
-Now you can connect Metamask to the blockchain. To do this, add a network by clicking on `Ethereum Mainnet` and `personalized RPC`. Here, you should be able to add a network.
-
-![Ganache Config](public/ganache-config.png)
-
-Once you have done it, you’re connected to the HardHat blockchain!
 
 # Installation
 
 Install the dependencies.
+To install whatever with npm or yarn  we have to use sudo :
 
-```bash
-# Yarn users
-yarn
-```
+$$ sudo yarn
+
 
 Run the complete project.
 
-```bash
-# Yarn users
-yarn dev
-```
+$$ sudo yarn dev
 
-You’re good to go!
+![image_2022-11-27_230939774](https://user-images.githubusercontent.com/51918258/204162281-40670aaf-c5d3-40be-b60d-5c5fce125ad2.png)
+
+Configure Metamask and connect to Hadhat: 
+![image_2022-11-27_231146445](https://user-images.githubusercontent.com/51918258/204162371-787cafad-b1af-45a3-a67b-f2e6e39d25f2.png)
+
+
+Add account ( for game transactions)  with its private key to metamask : with hardhat --> import account --> tape private key. 
+![image_2022-11-27_231425565](https://user-images.githubusercontent.com/51918258/204162457-264dd66d-ea80-4287-8d58-61148a888949.png)
+
+
+
+Register --> place the two ships: 
+![image_2022-11-27_231533286](https://user-images.githubusercontent.com/51918258/204162504-720f9584-76fa-4350-bd04-5ca33681d5c0.png)
+
+
+
+
+
+
+
 
 # Subject
 
@@ -66,4 +75,3 @@ The idea of the game is to fight in a free for all style (every players will pla
 - Do all the same steps with a second ship and a second player. 
 - Test your implementation with the turn function. 
 
-Pro tip: you can automate the ship deployment and registering with the deployments. 
