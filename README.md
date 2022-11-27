@@ -17,6 +17,7 @@ git clone git@github.com:ghivert/touche-coule.git
 Dependencies: 
 
 - `HardHat` is a local blockchain development, to iterate quickly and avoiding wasting Ether during development. Fortunately, you have nothing to do to install it.
+to test hardhat is working:  $$ npx hardhat 
 - `Node.js` is used to build the frontend, Recommanded to install the lastest stable version. 
 - `NPM` or `Yarn` is a package manager, to install dependencies for your frontend development. Yarn is recommended.
 - `Metamask` is a in-browser utility to interact with decentralized applications.
@@ -35,9 +36,25 @@ Run the complete project.
 
 $$ sudo yarn dev
 
+![image_2022-11-27_230939774](https://user-images.githubusercontent.com/51918258/204162281-40670aaf-c5d3-40be-b60d-5c5fce125ad2.png)
 
-to test hardhat is working: 
-$$ npx hardhat 
+Configure Metamask and connect to Hadhat: 
+![image_2022-11-27_231146445](https://user-images.githubusercontent.com/51918258/204162371-787cafad-b1af-45a3-a67b-f2e6e39d25f2.png)
+
+
+Add account ( for game transactions)  with its private key to metamask : with hardhat --> import account --> tape private key. 
+![image_2022-11-27_231425565](https://user-images.githubusercontent.com/51918258/204162457-264dd66d-ea80-4287-8d58-61148a888949.png)
+
+
+
+Register --> place the two ships: 
+![image_2022-11-27_231533286](https://user-images.githubusercontent.com/51918258/204162504-720f9584-76fa-4350-bd04-5ca33681d5c0.png)
+
+
+
+
+
+
 
 
 # Subject
