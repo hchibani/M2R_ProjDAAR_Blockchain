@@ -58,4 +58,3 @@ The idea of the game is to fight in a free for all style (every players will pla
 - Do all the same steps with a second ship and a second player. 
 - Test your implementation with the turn function. 
 
-Pro tip: you can automate the ship deployment and registering with the deployments. 
