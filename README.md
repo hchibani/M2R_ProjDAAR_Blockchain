@@ -4,7 +4,6 @@ Objective of the project:  Implement a "Touché Coulé" (Battleship) game
 in a decentralized way, on Ethereum. 
 
 
-
 # Download the main project from: 
 
 ```bash
@@ -50,11 +49,8 @@ Add account ( for game transactions)  with its private key to metamask : with ha
 Register --> place the two ships: 
 ![image_2022-11-27_231533286](https://user-images.githubusercontent.com/51918258/204162504-720f9584-76fa-4350-bd04-5ca33681d5c0.png)
 
-
-
-
-
-
+Successful register/turn: 
+![image_2022-11-27_232851540](https://user-images.githubusercontent.com/51918258/204163080-75dc31c6-5497-41c5-9ff9-90155257de2d.png)
 
 
 # Subject
@@ -74,4 +70,13 @@ The idea of the game is to fight in a free for all style (every players will pla
 - Register the ship on the Main contract. 
 - Do all the same steps with a second ship and a second player. 
 - Test your implementation with the turn function. 
+
+
+
+
+
+
+
+
+
 
