@@ -91,9 +91,4 @@ contract Main {
     return (x, y);
   }
   
-  function createShip() external returns (address){
-    ChildShip ship = new ChildShip(msg.sender);
-    return address(ship);
-  }
-  
 }
